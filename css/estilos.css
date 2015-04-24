@@ -1,0 +1,381 @@
+@import url("lib/reset.css");
+
+
+body { 
+ 	background: url('../img/bg.jpg') no-repeat center top fixed;
+}
+
+
+div.clear { clear: both }
+
+div.marca {
+	background: url('../img/marca.jpg') no-repeat;
+	width: 261px;
+	height: 98px;
+	position: absolute;
+	bottom: 25px;
+	left: 31px;
+	z-index: 3;
+}
+
+
+a.share {
+	background: url('../img/share.png') no-repeat;
+	width: 181px;
+	height: 164px;
+	display: block;
+	position: absolute;
+	bottom: 0;
+	z-index: 4;
+	left: 200px;
+}
+	a.share:hover { background-position: 0 -164px; }
+
+
+div.visor {
+
+}
+
+div.visor .linha {
+	background-color: #014387;
+	width: 508px;
+	height: 1px;
+	position: absolute;
+	left: 189px;
+}
+div.visor .linha.l1 { top: 59px; }
+div.visor .linha.l2 {  top: 78px; }
+div.visor .linha.l3 { top: 97px; }
+
+
+div.visor ul { margin: 0; padding: 0; position: absolute; top: 45px; }
+div.visor ul li { list-style: none; color: #004ba0; font: 10px/11px Arial; margin-bottom: 8px; }
+div.visor ul li.ativo { color: #00dae4; } 
+
+
+div.visor .etapa1 {  position: absolute; left: 215px; }
+div.visor .etapa2 {  position: absolute; left: 285px; }
+div.visor .etapa3 {  position: absolute; left: 396px; }
+div.visor .etapa4 {  position: absolute; left: 482px; }
+div.visor .etapa5 {  position: absolute; left: 585px; }
+
+
+
+	
+div.flavordj {
+	width: 760px;
+	height: 628px;
+	background: url('../img/bg_dj.jpg') no-repeat;
+	position: relative;
+	margin: 20px auto 0;
+}
+
+
+
+div.controles1 {
+	position: absolute;
+	top: 193px;
+	left: 86px;
+	width: 196px;
+	height: 200px;
+}
+	div.controles1 .p1 {
+		background: url('../img/whell/w1/a1.png') no-repeat -200px top;
+		width: 35px;
+		height: 172px;
+		position: absolute;
+		top: 12px;
+		left: -5px;
+	}
+
+
+	div.controles1 .p2 {
+		background: url('../img/whell/w1/a2.png') no-repeat -174px top;
+		width: 174px;
+		height: 40px;
+		position: absolute;
+		top: -10px;
+		left: 10px;
+	}
+
+	div.controles1 .p3 {
+		background: url('../img/whell/w1/a3.png') no-repeat -172px top;
+		width: 25px;
+		height: 172px;
+		position: absolute;
+		top: 12px;
+		right: 3px;
+	}
+
+	div.controles1 .p4 {
+		background: url('../img/whell/w1/a4.png') no-repeat -211px center;
+		width: 179px;
+		height: 40px;
+		position: absolute;
+		bottom: -3px;
+		left: 5px;
+	}
+
+	div.controles1 .p1.ativo { width: 126px; height: 172px; top: 12px; left: -5px; background-position: 0 0  }
+	div.controles1 .p2.ativo { width: 172px; height: 200px; top: -10px; left: 10px; background-position: 0 0 }
+	div.controles1 .p3.ativo { width: 126px; height: 172px; top: 12px; right: 3px; background-position: 0 0 }
+	div.controles1 .p4.ativo { width: 179px; height: 160px; bottom: 5px; left: 5px; background-position: 0 -43px }
+
+
+
+
+div.controles2 {
+	position: absolute;
+	top: 311px;
+	left: 279px;
+	width: 144px;
+	height: 146px;
+
+}
+	div.controles2 .p1 {
+		background: url('../img/whell/w2/a1.png') no-repeat -200px top;
+		width: 35px;
+		height: 172px;
+		position: absolute;
+		top: 12px;
+		left: -5px;
+	}
+
+
+	div.controles2 .p2 {
+		background: url('../img/whell/w2/a2.png') no-repeat -174px top;
+		width: 174px;
+		height: 40px;
+		position: absolute;
+		top: -5px;
+		left: 6px;
+	}
+
+	div.controles2 .p3 {
+		background: url('../img/whell/w2/a3.png') no-repeat -172px top;
+		width: 25px;
+		height: 172px;
+		position: absolute;
+		top: 12px;
+		right: 3px;
+	}
+
+	div.controles2 .p4 {
+		background: url('../img/whell/w2/a4.png') no-repeat -211px center;
+		width: 179px;
+		height: 40px;
+		position: absolute;
+		bottom: -3px;
+		left: 5px;
+	}
+
+	div.controles2 .p1.ativo { width: 96px; height: 129px; top: 8px; left: -5px; background-position: 0 0  }
+	div.controles2 .p2.ativo { width: 130px; height: 118px; top: -4px; left: 6px; background-position: 0 0 }
+	div.controles2 .p3.ativo { width: 91px; height: 123px; top: 12px; right: 3px; background-position: 0 0 }
+	div.controles2 .p4.ativo { width: 179px; height: 166px; bottom: -1px; left: 0px; background-position: 0 59px; }
+
+
+
+div.fruit .p1 { width: 51px; height: 51px; background: url('../img/whell/caixa_a/f1.png') no-repeat; position: absolute; top: 319px; left: 460px; }
+div.fruit .p1.ativo { background-position: 0px -52px; height: 52px }
+div.fruit .p2 { width: 51px; height: 51px; background: url('../img/whell/caixa_a/f2.png') no-repeat; position: absolute; top: 319px; left: 513px; }
+div.fruit .p2.ativo { background-position: 0 -52px; height: 52px }
+div.fruit .p3 { width: 51px; height: 51px; background: url('../img/whell/caixa_a/f3.png') no-repeat; position: absolute; top: 319px; left: 566px; }
+div.fruit .p3.ativo { background-position: -1px -54px; height: 52px }
+div.fruit .p4 { width: 51px; height: 51px; background: url('../img/whell/caixa_a/f4.png') no-repeat; position: absolute; top: 319px; left: 619px; }
+div.fruit .p4.ativo { background-position: -1px -53px; height: 52px; width: 48px }
+
+	
+div.fruitb .p1 { width: 51px; height: 51px; background: url('../img/whell/caixa_b/f1.png') no-repeat; position: absolute; top: 398px; left: 460px; }
+div.fruitb .p1.ativo { background-position: 0px -53px; height: 52px }
+div.fruitb .p2 { width: 51px; height: 51px; background: url('../img/whell/caixa_b/f2.png') no-repeat; position: absolute; top: 398px; left: 513px; }
+div.fruitb .p2.ativo { background-position: 0 -52px; height: 52px }
+div.fruitb .p3 { width: 51px; height: 51px; background: url('../img/whell/caixa_b/f3.png') no-repeat; position: absolute; top: 398px; left: 566px; }
+div.fruitb .p3.ativo { background-position: -1px -52px; height: 52px }
+div.fruitb .p4 { width: 51px; height: 51px; background: url('../img/whell/caixa_b/f4.png') no-repeat; position: absolute; top: 398px; left: 619px; }
+div.fruitb .p4.ativo { background-position: -1px -53px; height: 52px; width: 48px }
+
+
+div.extras .p1 { width: 80px; height: 80px; background: url('../img/whell/extras/f1.png') no-repeat; position: absolute; top: 510px; left: 398px; }
+div.extras .p1.ativo { background-position: 0px -78px;  }
+div.extras .p2 { width: 80px; height: 80px; background: url('../img/whell/extras/f2.png') no-repeat; position: absolute; top: 510px; left: 466px;  }
+div.extras .p2.ativo { background-position: -1px -78px;  }
+div.extras .p3 { width: 80px; height: 80px; background: url('../img/whell/extras/f3.png') no-repeat; position: absolute; top: 510px; left: 533px;  }
+div.extras .p3.ativo { background-position: 0px -77px; }
+div.extras .p4 { width: 80px; height: 80px; background: url('../img/whell/extras/f4.png') no-repeat; position: absolute; top: 510px; left: 602px; }
+div.extras .p4.ativo { background-position: 0px -78px; }
+
+
+
+
+
+div.guide {
+	width: 356px;
+	height: 76px;
+	background: url('../img/display-guide.png');
+	position: absolute;
+	z-index: 8;
+	left: 280px;
+	top: 150px;
+}
+	div.guide .etapa1{
+		width: 76px;
+		height: 76px;
+		position: absolute;
+		top: 0;
+		left: 0;
+	}
+
+	div.guide .etapa2 {
+		width: 68px;
+		height: 68px;
+		position: absolute;
+		left: 76px;
+		top: 5px;
+	}
+
+	div.guide .etapa3 {
+		width: 95px;
+		height: 8px;
+		position: absolute;
+		left: 174px;
+		top: 6px;
+	}
+
+	div.guide .etapa4 {
+		width: 95px;
+		height: 8px;
+		position: absolute;
+		left: 174px;
+		top: 62px;
+	}
+
+	div.guide .etapa5 {
+		width: 37px;
+		height: 37px;
+		position: absolute;
+		right: 3px;
+		top: 19px;
+	}
+
+
+div.guide .p1 { top: 34px; left: 8px }
+div.guide .p2 { top: 8px; left: 34px }
+div.guide .p3 { top: 34px; right: 8px }
+div.guide .p4 { bottom: 8px; left: 34px }
+
+div.guide .p5 { top: 30px; left: 8px }
+div.guide .p6 { top: 8px; left: 30px }
+div.guide .p7 { top: 30px; right: 8px }
+div.guide .p8 { bottom: 8px; left: 30px }
+
+div.guide .p9  { top: 0px; left: 0 }
+div.guide .p10 { top: 0px; left: 33px }
+div.guide .p11 { top: 0px; left: 73px }
+div.guide .p12 { top: 0px; left: 108px }
+
+div.guide .p13  { top: 0px; left: 0 }
+div.guide .p14 { top: 0px; left: 33px }
+div.guide .p15 { top: 0px; left: 73px }
+div.guide .p16 { top: 0px; left: 108px }
+
+div.guide .p17  { top: 2px; left: 2px }
+div.guide .p18 { top: 2px; right: 2px }
+div.guide .p19 { bottom: 1px; left: 2px }
+div.guide .p20 { bottom: 1px; right: 2px }
+
+
+div.option {
+	width: 8px;
+	height: 8px;
+	background: url('../img/option.png') no-repeat;
+	position: absolute;
+}
+	div.option.ativo { background-position: 0 -8px; }
+
+
+
+div.whel1 {
+	position: absolute;
+	top: 220px;
+	left: 112px;
+	width: 143px;
+	height: 143px;
+}
+div.whel1 > div.a {
+	width: 143px;
+	height: 71px;
+	background: url('../img/whell/1a.png') no-repeat;
+	position: absolute;
+}
+div.whel1 > div.b {
+	width: 143px;
+	height: 71px;
+	background: url('../img/whell/1b.png') no-repeat bottom center;
+	position: absolute;
+	bottom: 0;
+}
+
+
+
+
+div.whel2 {
+	position: absolute;
+	top: 332px;
+	left: 298px;
+	width: 106px;
+	height: 106px;
+}
+div.whel2 > div.a {
+	width: 53px;
+	height: 106px;
+	background: url('../img/whell/2a.png') no-repeat top left;
+	position: absolute;
+}
+div.whel2 > div.b {
+	width: 53px;
+	height: 106px;
+	background: url('../img/whell/2b.png') no-repeat top right;
+	position: absolute;
+	right: 0; 
+}
+
+
+
+
+/* PROFILE */
+
+.tarja {
+	background: #022335 url('../img/equalizer.jpg') no-repeat 462px;
+	width: 585px;
+	height: 102px; 
+	margin: 155px 0 0 65px;
+}
+
+.profile-batida {
+	width: 760px;
+	height: 394px;
+	margin: 0 auto;
+	padding: 20px;
+	background: url('../img/bg-player.jpg') no-repeat;
+}
+
+.foto { float: left; margin: 10px 0 0 10px; }
+.info { float: left; margin: 10px 0 0 10px; }
+	.info .name, .info .posicao {
+		font: bold 15px/1.3em Arial;
+		color: #fff;
+	}
+
+.toggleSound {
+	display: block;
+	background: url('../img/play-pause.jpg') no-repeat;
+	width: 64px;
+	height: 65px;
+	float: right;
+	margin-top: 20px;
+	margin-right: 160px;
+}
+
+.toggleSound.play { background-position:  0 0 }
+.toggleSound.pause { background-position:  0 -65px }
